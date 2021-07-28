@@ -1,0 +1,197 @@
+body{
+    font-family: 'Kurale','Inter', sans-serif !important;
+}
+.title{
+    background-image: url('https://wallpaperaccess.com/full/929192.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 50rem;
+    width: 100%;
+    margin: 0;
+}
+html{
+    scroll-behavior: smooth;
+}
+/* Navbar */
+.navbar{
+    padding: 4% 4%;
+}
+.navbar-brand{
+    font-size: 2rem !important;
+    font-weight: bold;
+}
+.navbar-item a{
+    font-size: 1.5em;
+    padding: 0 22px 0;
+    margin: 0 auto;
+    color: antiquewhite !important;
+}
+.navbar-item a:hover{
+   color: blue !important;
+   text-decoration: none;
+}
+.icon{
+    width: 60px;
+    height: 60px;
+}
+/* Home */
+.intro{
+    font-family: 'Kurale','Inter','Nova Slim', cursive !important;
+    color: antiquewhite;
+    position: absolute;
+    left: 65%;
+    top: 25%;
+    right: 1%;
+    font-size: 1.2rem;
+    line-height: 1.8rem;
+}
+.intro h1{
+    font-family: 'Hepta Slab', serif !important;
+    font-weight: bold;
+    font-size: 3rem !important;
+    line-height: 4rem;
+    padding: 0 1% 12% 0;
+    width: 150%;
+    height: 30%;
+}
+.conbtn{
+    font-size: 2rem;
+}
+
+/* About */
+.about,.courses,.books{
+    text-align: center;
+    padding: 5% 2%;
+}
+.courses{
+    background-color: rgb(42, 42, 119);
+    color: white;
+}
+.courses p{
+    font-family: 'Nova Slim', cursive !important;
+}
+
+/* Footer */
+
+@media (min-width: 992px) and (max-width: 1199.98px){
+    .title{
+        height: 35rem;
+        width: 100%;
+    }
+    .intro{
+        font-size: 1.8rem !important;
+        width: 100%;
+        position: relative;
+        left: 10%;
+    }
+    .navbar-item a{
+        font-size: 1.5em;
+        padding: 0 8px 0;
+        color: antiquewhite !important;
+    }
+    .navbar{
+        margin-right: 10%;
+    }
+}
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .title{
+        height: 30rem;
+    }
+    .intro{
+        position: relative;
+        left: 5%;
+        width: 80%;
+    }
+    .navbar{
+        background-color: rgb(125, 125, 165);
+        width: 100%;
+        padding: 0;
+        margin: 0;
+    }
+    .navbar-item a:hover{
+        color: rgb(187, 235, 17) !important;
+    }
+}
+@media (min-width: 576px) and (max-width: 767.98px) {
+    body{
+        width: 100%;
+    }
+    .title{
+        height: 30rem;
+        background-repeat: no-repeat;
+        background-size: auto 100%;
+        width: 100%;
+        margin: 0;
+        background-image: url('https://i.pinimg.com/originals/d4/4e/41/d44e41cb50f142f3377d728d2402d3f4.jpg');
+    }
+    .intro{
+        position: relative;
+        left: 5%;
+        width: 80%;
+        font-size: 1rem;
+    }
+    .intro h1{
+        font-size: 2rem !important;
+    }
+    .navbar{
+        background-color: rgb(125, 125, 165);
+        width: 84%;
+        padding: 0;
+        margin: 0;
+    }
+    .navbar-item a:hover{
+        color: rgb(187, 235, 17) !important;
+    }
+    .conbtn{
+        display: none !important;
+    }
+}
+@media (max-width: 575.98px) {
+    body{
+        width: 100%;
+    }
+    .title{
+        height: 30rem;
+        background-repeat: no-repeat;
+        background-size: auto 110%;
+        width: 100%;
+        opacity: 0.8;
+        margin: 0;
+        background-image: url('https://i.pinimg.com/originals/d4/4e/41/d44e41cb50f142f3377d728d2402d3f4.jpg');
+    }
+    .intro{
+        top:13% !important; 
+        position: relative;
+        left: 5%;
+        width: 80%;
+        font-size: 1rem;
+        color: rgb(226, 182, 100);
+        opacity: 1 !important;
+    }
+    .intro h1{
+        font-size: 2rem !important;
+    }
+    .navbar{
+        background-color: rgb(125, 125, 165);
+        width: 90%;
+        padding: 0;
+        margin: 0;
+    }
+    .tbtn{
+        position: relative;
+        margin-right: 3%;
+    }
+    .navbar-brand{
+        padding: 0 auto;
+        font-size: 1.4rem !important; 
+    }
+    .navbar-brand .icon{
+        display: none !important;
+    }
+    .navbar-item a:hover{
+        color: rgb(187, 235, 17) !important;
+    }
+    /* .conbtn{
+        display: none !important;
+    } */
+ }
